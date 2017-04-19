@@ -54,12 +54,57 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.imagemin-svgo">module imagemin-svgo</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.imagemin-svgo.imagemin-svgo">
+            function <span class="apidocSignatureSpan"></span>imagemin-svgo
+            <span class="apidocSignatureSpan">({multipass: true}, opts)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.imagemin-svgo" id="apidoc.module.imagemin-svgo">module imagemin-svgo</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.imagemin-svgo.imagemin-svgo" id="apidoc.element.imagemin-svgo.imagemin-svgo">
+        function <span class="apidocSignatureSpan"></span>imagemin-svgo
+        <span class="apidocSignatureSpan">({multipass: true}, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">opts =&gt; buf =&gt; {
+	opts = Object.assign({multipass: true}, opts);
+
+	if (!isSvg(buf)) {
+		return Promise.resolve(buf);
+	}
+
+	if (Buffer.isBuffer(buf)) {
+		buf = buf.toString();
+	}
+
+	const svgo = new SVGO(opts);
+
+	return new Promise((resolve, reject) =&gt; {
+		svgo.optimize(buf, res =&gt; {
+			if (res.error) {
+				reject(new Error(res.error));
+				return;
+			}
+
+			resolve(Buffer.from(res.data));
+		});
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
