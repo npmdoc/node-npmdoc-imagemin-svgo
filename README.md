@@ -1,9 +1,14 @@
-# api documentation for  [imagemin-svgo (v5.2.1)](https://github.com/imagemin/imagemin-svgo#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-svgo.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-svgo) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-svgo.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-svgo)
+# npmdoc-imagemin-svgo
+
+#### api documentation for  [imagemin-svgo (v5.2.1)](https://github.com/imagemin/imagemin-svgo#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-svgo.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-svgo) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-svgo.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-svgo)
+
 #### SVGO imagemin plugin
 
-[![NPM](https://nodei.co/npm/imagemin-svgo.png?downloads=true)](https://www.npmjs.com/package/imagemin-svgo)
+[![NPM](https://nodei.co/npm/imagemin-svgo.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/imagemin-svgo)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-imagemin-svgo_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-imagemin-svgo/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Kevin Mårtensson",
-        "email": "kevinmartensson@gmail.com",
         "url": "github.com/kevva"
     },
     "bugs": {
@@ -59,25 +63,20 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "1000ch",
-            "email": "shogo.sensui@gmail.com"
+            "name": "1000ch"
         },
         {
-            "name": "kevva",
-            "email": "kevinmartensson@gmail.com"
+            "name": "kevva"
         },
         {
-            "name": "shinnn",
-            "email": "snnskwtnb@gmail.com"
+            "name": "shinnn"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "imagemin-svgo",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/imagemin/imagemin-svgo.git"
@@ -88,16 +87,6 @@
     "version": "5.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module imagemin-svgo](#apidoc.module.imagemin-svgo)
-
-
-
-# <a name="apidoc.module.imagemin-svgo"></a>[module imagemin-svgo](#apidoc.module.imagemin-svgo)
 
 
 
